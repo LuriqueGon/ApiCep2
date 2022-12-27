@@ -4,6 +4,9 @@
     "type": "library",
     "license": "MIT",
     "autoload": {
+        "psr-0": {
+            "Search" : "src/"
+        },
         "psr-4": {
             "Lurique\\ApiCep\\": "src/"
         }
@@ -14,5 +17,7 @@
             "email": "LuriqueGon@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+    "php" : ">=7.2.0"
+    }
 }
