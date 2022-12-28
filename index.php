@@ -5,4 +5,4 @@
     use Lurique\ApiCep\Search;
 
     $search = new Search;
-    var_dump($search->getAddressFromZipcode('53540010'));
+    var_dump($search->getAddressFromZipcode('53540115'));
